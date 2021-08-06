@@ -9,6 +9,8 @@
 </head>
 <body>
 <div id="app"></div>
+<div id="progressbar"></div>
+<div id="scrollPath"></div>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="js/script.js"></script>
   <h1>My Bio :)</h1>
@@ -48,6 +50,13 @@
     </ul>
     <br>
     <img src=https://media3.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif>
+    <script type="text/javascript">
+      let progress = document.getElementById("progressbar")
+      let totalHeight = document.body.scrollHeight - window.innerHeight;
+      window.onscroll = function (){
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = progressHeight + "%";
+      }
+      </script>
 </body>
 </html>
-
