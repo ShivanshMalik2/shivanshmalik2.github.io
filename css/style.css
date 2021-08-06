@@ -1,0 +1,21 @@
+body {
+    background-color:#ffd260
+}
+
+div {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif
+}
+p {
+  font-family: Arial, Helvetica, sans-serif
+}
