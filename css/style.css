@@ -24,3 +24,7 @@ body {
   color: #eee;
   background: #000000;
 }
+
+a {
+  font-family: "Courier New", Courier, monospace;
+}
