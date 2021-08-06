@@ -19,3 +19,8 @@ ul {
 p {
   font-family: Arial, Helvetica, sans-serif
 }
+
+body {
+  color: #rgb;
+  background: #000000;
+}
